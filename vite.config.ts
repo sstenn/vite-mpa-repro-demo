@@ -20,12 +20,5 @@ export default defineConfig({
       open: 'start',
       scanDir: 'src/apps'
     })
-  ],
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@import "./src/path-to-scss-variables";`
-      },
-    },
-  },
+  ]
 })
